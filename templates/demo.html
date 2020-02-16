@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+<button type="button" id="btn-1">1 Tré</button>
+<button type="button" id="btn-2">2 Ráðstafa</button>
+<button type="button" id="btn-3">3 EHV</button>
+<img src = "{{ url_for('static', filename='img/audur.png') }}"/>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/twilio.js') }}"></script>
+{% endblock %}

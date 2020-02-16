@@ -1,0 +1,60 @@
+body {
+    background-color: #34383f;
+}
+
+button{
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #4cb874;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    margin: 10px;
+    transition: all 0.4s ease 0s;
+}
+    
+button:hover{
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #4cb874;
+    opacity: 0.5;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+}
+
+
+@keyframes audur-animation {
+    from {
+        border: solid 1px #fff;
+    }
+    to {transform: 
+        perspective(400px) rotateY(40deg);
+        border: solid 1px #000}
+
+}
+
+img {
+    opacity: 1;
+    justify-content: center;
+    border: solid 5px #fff;
+    margin: 50px;
+}
+img:hover{
+    opacity: 1;
+    justify-content: center;
+    border: solid 5px #fff;
+    margin: 50px;
+    animation: audur-animation;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    
+    
+}
+
+
