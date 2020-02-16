@@ -95,8 +95,7 @@ Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 
 ## 3 Authors
 * [Egill Anton Hlöðversson](https://github.com/egillanton)
-* [Enes Tasbasi](https://github.com/etasbasi)
-* [Aliyah Desautels](https://github.com/itsnotaliyah)
+* [Zakarías Friðriksson](https://github.com/zakkimoto)
 
 ## 4 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
